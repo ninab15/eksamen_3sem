@@ -4,7 +4,9 @@
     scroll-behavior: smooth;
 }
 
-
+body {
+    overflow-x: hidden;
+}
 
 
 
@@ -18,7 +20,63 @@
 
 /*GENERELLE INDSTILLINGER SLUT*/
 
+/*FONTS*/
+
+h1 {
+    font-family: museo-sans, sans-serif;
+    font-weight: 900;
+    font-style: normal;
+}
+
+h2 {
+    font-family: museo-sans, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+h3 {
+    font-family: museo-sans, sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+h4 {
+    font-family: museo-sans, sans-serif;
+    font-weight: 900;
+    font-style: normal;
+    font-size: 0.8rem;
+}
+
+p {
+    font-family: museo-sans, sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    color: #383838;
+    font-size: 1rem;
+}
+
+a {
+    text-decoration: none;
+
+}
+
+a:hover {
+    transform: scale(1.1);
+}
+
+
+
+
+
+
+
+/*FONTS SLUT*/
+
 /*BURGERMENU*/
+
+.navbar {
+    background-color: transparent;
+}
 
 .wrapper-menu {
     display: inline-block;
@@ -62,9 +120,115 @@
     border-radius: 6px;
 }
 
-
-
-
-
-
 /*BURGERMENU SLUT*/
+
+/*HEADER*/
+
+.hero {
+    background-image: url(img/texture-opacitylow.svg);
+    background-size: contain;
+    height: 100vh;
+    background-position: 50%;
+    /*        opacity: 35%;*/
+
+
+}
+
+.hero-heading {
+    right: 40%;
+    top: 35%;
+    z-index: 3;
+}
+
+.hero-img1 {
+    transform: rotate(90deg);
+    height: 350px;
+    width: 250px;
+    right: 35%;
+    top: 20%;
+    z-index: 2;
+}
+
+.hero-img2 {
+    background-image: url(img/ocean.jpg);
+    height: 350px;
+    width: 250px;
+    right: 25%;
+    top: 15%;
+}
+
+.pil {
+    top: 80vh;
+    left: 50vw;
+    width: 50px;
+    height: 60px;
+}
+
+.pil-text {
+    top: 80vh;
+    left: 52vw;
+    width: 50px;
+    transform: rotate(90deg);
+    font-weight: 700;
+    font-family: museo-sans, sans-serif;
+    text-transform: uppercase;
+
+}
+
+/*HEADER SLUT*/
+
+/*FORSIDE*/
+
+.img1 {
+    background-image: url(img/ocean.jpg);
+    height: 300px;
+    width: 300px;
+    top: 15%;
+    right: 20%
+}
+
+.img2 {
+    background-image: url(img/ocean.jpg);
+    height: 250px;
+    width: 250px;
+    top: 30%;
+    right: 45%
+}
+
+.img3 {
+    background-image: url(img/ocean.jpg);
+    height: 150px;
+    width: 150px;
+    top: 50%;
+    right: 70%
+}
+
+.img4 {
+    margin-top: 10vh;
+}
+
+.forside-frivillig {
+    background-image: url(img/texture-opacitylow.svg);
+    height: 400px;
+    background-repeat: repeat-x;
+    background-color: #DEE6F7;
+}
+
+
+/*FORSIDE SLUT*/
+
+
+/*MEDIA QUERY*/
+@media screen and (min-width: 768px) {
+
+    .img4 {
+        position: absolute;
+        top: -30%;
+        right: 5vw;
+
+    }
+
+    .forside-frivillig {
+        height: 300px;
+    }
+}
