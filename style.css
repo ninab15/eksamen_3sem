@@ -36,8 +36,10 @@ h2 {
 
 h3 {
     font-family: museo-sans, sans-serif;
-    font-weight: 300;
+    font-weight: 900;
+    color: #004B8B;
     font-style: normal;
+    font-size: 1rem;
 }
 
 h4 {
@@ -158,15 +160,15 @@ a:hover {
 }
 
 .pil {
-    top: 80vh;
+    top: 85vh;
     left: 50vw;
     width: 50px;
     height: 60px;
 }
 
 .pil-text {
-    top: 80vh;
-    left: 52vw;
+    top: 85vh;
+    left: 55vw;
     width: 50px;
     transform: rotate(90deg);
     font-weight: 700;
@@ -204,31 +206,85 @@ a:hover {
 }
 
 .img4 {
-    margin-top: 10vh;
+    background-image: url(img/ocean.jpg);
+    height: 300px;
+    width: 250px;
+    position: absolute;
+    top: 55vh;
+    right: 10vw;
+
+}
+
+.img5 {
+    background-image: url(img/ocean.jpg);
+    height: 300px;
+    width: 250px;
+
 }
 
 .forside-frivillig {
     background-image: url(img/texture-opacitylow.svg);
-    height: 400px;
-    background-repeat: repeat-x;
+
+    background-repeat: repeat;
     background-color: #DEE6F7;
 }
 
 
 /*FORSIDE SLUT*/
 
+/*OM OS*/
+.img7 {
+    background-image: url(img/ocean.jpg);
+    height: 350px;
+    width: 250px;
+    position: absolute;
+    right: 20vw;
+    top: 15vh;
+}
+
+.img8 {
+    background-image: url(img/ocean.jpg);
+    height: 350px;
+    width: 250px;
+    margin-bottom: 15vh
+}
+
+
+
+/*OM OS SLUT*/
 
 /*MEDIA QUERY*/
 @media screen and (min-width: 768px) {
-
     .img4 {
+        top: 0;
+        left: 10vw;
+    }
+
+    .img6 {
         position: absolute;
         top: -30%;
         right: 5vw;
 
     }
 
+    .img7 {
+        left: 20vw;
+    }
+
     .forside-frivillig {
         height: 300px;
+    }
+
+    .pil-text {
+        left: 52vw;
+        top: 80vh;
+    }
+
+    .pil {
+        top: 80vh;
+    }
+
+    .some {
+        margin-top: 10vh;
     }
 }
