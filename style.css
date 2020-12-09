@@ -26,12 +26,14 @@ h1 {
     font-family: museo-sans, sans-serif;
     font-weight: 900;
     font-style: normal;
+    text-transform: uppercase;
 }
 
 h2 {
     font-family: museo-sans, sans-serif;
     font-weight: 700;
     font-style: normal;
+    text-transform: uppercase;
 }
 
 h3 {
@@ -206,21 +208,13 @@ a:hover {
 }
 
 .img4 {
-    background-image: url(img/ocean.jpg);
-    height: 300px;
-    width: 250px;
     position: absolute;
     top: 55vh;
     right: 10vw;
 
 }
 
-.img5 {
-    background-image: url(img/ocean.jpg);
-    height: 300px;
-    width: 250px;
 
-}
 
 .forside-frivillig {
     background-image: url(img/texture-opacitylow.svg);
@@ -235,8 +229,8 @@ a:hover {
 /*OM OS*/
 .img7 {
     background-image: url(img/ocean.jpg);
-    height: 350px;
-    width: 250px;
+    height: 400px;
+    width: 300px;
     position: absolute;
     right: 20vw;
     top: 15vh;
@@ -244,8 +238,8 @@ a:hover {
 
 .img8 {
     background-image: url(img/ocean.jpg);
-    height: 350px;
-    width: 250px;
+    height: 400px;
+    width: 300px;
     margin-bottom: 15vh
 }
 
