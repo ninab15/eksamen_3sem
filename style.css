@@ -64,10 +64,6 @@ a {
 
 }
 
-a:hover {
-    transform: scale(1.1);
-}
-
 
 
 
@@ -246,6 +242,8 @@ a:hover {
 
 
 /*OM OS SLUT*/
+
+
 
 /*MEDIA QUERY*/
 @media screen and (min-width: 768px) {
