@@ -82,7 +82,9 @@ button:hover {
     transform: scale(1.05);
 }
 
-
+#burgerbutton {
+    width: auto;
+}
 
 
 /*FONTS SLUT*/
