@@ -21,6 +21,9 @@ body {
 /*GENERELLE INDSTILLINGER SLUT*/
 
 /*FONTS*/
+.hero-h1 {
+    color: #edf0f7;
+}
 
 h1 {
     font-family: museo-sans, sans-serif;
@@ -158,31 +161,25 @@ button:hover {
 }
 
 .hero-img1 {
-
-    height: 350px;
-    width: 250px;
-    right: 35%;
-    top: 20%;
+    top: 15vh;
+    right: 50vw;
     z-index: 2;
 }
 
 .hero-img2 {
-    background-image: url(img/ocean.jpg);
-    height: 350px;
-    width: 250px;
-    right: 25%;
-    top: 15%;
+    right: 35vw;
+    top: 5vh;
 }
 
 .pil {
-    top: 85vh;
+    top: 70vh;
     left: 50vw;
     width: 50px;
     height: 60px;
 }
 
 .pil-text {
-    top: 85vh;
+    top: 70vh;
     left: 55vw;
     width: 50px;
     transform: rotate(90deg);
@@ -233,7 +230,7 @@ button:hover {
     background-image: url(img/texture-opacitylow.svg);
 
     background-repeat: repeat;
-    background-color: #DEE6F7;
+    background-color: #edf0f7;
 }
 
 
@@ -259,6 +256,16 @@ button:hover {
 
 /*MEDIA QUERY*/
 @media screen and (min-width: 768px) {
+
+    .hero-img1 {
+        right: 45vw;
+    }
+
+    .hero-img2 {
+        top: 10vh;
+        right: 30vw;
+    }
+
     .img4 {
         top: 0;
         left: 10vw;
@@ -296,4 +303,24 @@ button:hover {
         margin-left: 20px;
         margin-top: 10px;
     }
+}
+
+@media screen and (min-width: 992px) {}
+
+@media screen and (min-width: 1200px) {
+
+    .hero-h1 {
+        color: #383838;
+    }
+
+    .hero-img1 {
+        right: 20vw;
+        top: 20vh;
+    }
+
+    .hero-img2 {
+        right: 10vw;
+    }
+
+
 }
