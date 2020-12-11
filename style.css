@@ -8,7 +8,9 @@ body {
     overflow-x: hidden;
 }
 
-
+.tilbage-knap {
+    margin-left: 8vw;
+}
 
 
 
@@ -302,6 +304,10 @@ button:hover {
     .logo {
         margin-left: 20px;
         margin-top: 10px;
+    }
+
+    .tilbage-knap {
+        margin-left: auto;
     }
 }
 
