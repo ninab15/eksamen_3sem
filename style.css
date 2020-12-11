@@ -16,6 +16,7 @@ body {
 .cookie-container p {
     margin: 24px 0;
     line-height: 2;
+    color: white;
 }
 
 .cookie-container a {
