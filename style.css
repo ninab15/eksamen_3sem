@@ -284,8 +284,8 @@ button:hover {
 
 .img4 {
     position: absolute;
-    top: 55vh;
-    right: 10vw;
+    top: 70vh;
+    right: 20vw;
 
 }
 
@@ -371,6 +371,10 @@ button:hover {
     .tilbage-knap {
         margin-left: auto;
     }
+
+
+
+
 }
 
 @media screen and (min-width: 992px) {}
