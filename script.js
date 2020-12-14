@@ -40,6 +40,14 @@ gsap.from(".stagger", {
 
 });
 
+gsap.from(".stagger1", {
+    opacity: 0,
+    y: 100,
+    duration: 1.2,
+    stagger: 0.5,
+
+});
+
 gsap.from(".stagger2", {
     opacity: 0,
     y: 100,
@@ -51,6 +59,28 @@ gsap.from(".stagger2", {
         end: "top top",
         markers: false,
     }
+
+});
+
+gsap.from(".stagger3", {
+    opacity: 0,
+    y: 100,
+    duration: 1.2,
+    stagger: 0.5,
+    scrollTrigger: {
+        trigger: ".stagger3",
+        start: "top bottom",
+        end: "top top",
+        markers: false,
+    }
+
+});
+
+gsap.from(".hero-h1", {
+    opacity: 0,
+    y: 100,
+    duration: 1.2,
+    stagger: 0.5,
 
 });
 
