@@ -288,6 +288,7 @@ button:hover {
     position: absolute;
     top: 70vh;
     right: 20vw;
+    z-index: 2;
 
 }
 
@@ -334,7 +335,7 @@ button:hover {
     }
 
     .img4 {
-        top: 0;
+        top: -7vh;
         left: 10vw;
     }
 
