@@ -250,7 +250,7 @@ button:hover {
 /*FORSIDE*/
 
 .img1 {
-    background-image: url(img/ocean.jpg);
+
     height: 300px;
     width: 300px;
     top: 15%;
@@ -258,10 +258,10 @@ button:hover {
 }
 
 .img2 {
-    background-image: url(img/ocean.jpg);
+
     height: 250px;
     width: 250px;
-    top: 30%;
+    top: 35%;
     right: 45%
 }
 
@@ -269,8 +269,8 @@ button:hover {
     background-image: url(img/ocean.jpg);
     height: 150px;
     width: 150px;
-    top: 50%;
-    right: 70%
+    top: 65%;
+    right: 75%
 }
 
 .img4 {
