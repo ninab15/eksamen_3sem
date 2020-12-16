@@ -229,13 +229,14 @@ button:hover {
 
 .hero-img1 {
     top: 15vh;
-    right: 50vw;
+    right: 65vw;
     z-index: 2;
 }
 
 .hero-img2 {
-    right: 35vw;
-    top: 5vh;
+    right: 45vw;
+    top: 7vh;
+
 }
 
 .pil {
