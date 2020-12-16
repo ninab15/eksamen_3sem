@@ -15,17 +15,6 @@ setTimeout(() => {
 gsap.registerPlugin(ScrollTrigger);
 
 
-window.onscroll = function () {
-    scrollIndicator()
-};
-
-function scrollIndicator() {
-    var winScroll = document.body.scrollTop || document.documentElement.scrollTop;
-    var height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
-}
-
-
-
 gsap.from(".stagger", {
     opacity: 0,
     y: 100,
