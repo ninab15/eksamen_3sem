@@ -14,15 +14,8 @@ body {
     margin-left: 8vw;
 }
 
-#bubbles {
-    height: 60vh;
-    width: 100vw;
-    background-image: url(img/plastic.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
-    background-position: center;
-}
+
+
 
 /***** Cookies ****/
 .cookie-container p {
@@ -168,6 +161,13 @@ button:hover {
     width: auto;
 }
 
+video {
+    object-fit: cover;
+}
+
+nav a:hover {
+    color: #004b8b;
+}
 
 /*FONTS SLUT*/
 
@@ -234,8 +234,8 @@ button:hover {
 }
 
 .hero-heading {
-    right: 40%;
-    top: 35%;
+    right: 47vw;
+    top: 35vh;
     z-index: 3;
 }
 
@@ -252,14 +252,14 @@ button:hover {
 }
 
 .pil {
-    top: 70vh;
+    top: 72vh;
     left: 50vw;
     width: 50px;
     height: 60px;
 }
 
 .pil-text {
-    top: 70vh;
+    top: 71vh;
     left: 55vw;
     width: 50px;
     transform: rotate(90deg);
@@ -301,10 +301,7 @@ button:hover {
     top: 70vh;
     right: 20vw;
     z-index: 2;
-
 }
-
-
 
 .forside-frivillig {
     background-image: url(img/texture-opacitylow.svg);
@@ -339,7 +336,8 @@ button:hover {
 @media screen and (min-width: 768px) {
 
     .hero-img1 {
-        right: 45vw;
+        top: 15vh;
+        right: 55vw;
     }
 
     .hero-img2 {
@@ -369,11 +367,11 @@ button:hover {
 
     .pil-text {
         left: 52vw;
-        top: 80vh;
+        top: 78vh;
     }
 
     .pil {
-        top: 80vh;
+        top: 79vh;
     }
 
     .some {
@@ -394,7 +392,19 @@ button:hover {
 
 }
 
-@media screen and (min-width: 992px) {}
+@media screen and (min-width: 992px) {
+
+
+
+    .pil {
+        top: 75vh;
+    }
+
+    .pil-text {
+        top: 74vh
+    }
+}
+
 
 @media screen and (min-width: 1200px) {
 
@@ -404,12 +414,21 @@ button:hover {
 
     .hero-img1 {
         right: 20vw;
-        top: 20vh;
+        top: 16vh;
     }
 
     .hero-img2 {
-        right: 10vw;
+        right: 9vw;
     }
 
+    #bubbles {
+        width: 100%;
+        height: 60vh;
+        background-image: url(img/plastic.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+        background-position: center;
+    }
 
 }
