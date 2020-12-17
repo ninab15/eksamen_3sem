@@ -150,6 +150,17 @@ button {
 
 }
 
+.button {
+    border-radius: 5px;
+    border: none;
+    background-color: #CAD8F4;
+    font-family: museo-sans, sans-serif;
+    font-size: 1rem;
+    height: 45px;
+    width: 180px;
+
+}
+
 button:hover {
     transform: scale(1.05);
 }
