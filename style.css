@@ -153,7 +153,6 @@ button {
 .button {
     border-radius: 5px;
     border: none;
-    background-color: #CAD8F4;
     font-family: museo-sans, sans-serif;
     font-size: 1rem;
     height: 45px;
@@ -330,7 +329,11 @@ button:hover {
 
 /*OM OS SLUT*/
 
+/*KONTAKT*/
 
+
+
+/*KONTAKT SLUT*/
 
 /*MEDIA QUERY*/
 @media screen and (min-width: 768px) {

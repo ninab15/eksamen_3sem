@@ -27,7 +27,7 @@
         <div class="con justify-content-center" style="    position: absolute;
     right: 10px;
     top: 5px;">
-            <button id="burgerbutton" class="navbar-toggler " type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <div id="burgerbutton" class="navbar-toggler button" data-toggle="collapse" role="button" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <div class="navbar-toggler-icon d-flex">
                     <div class="wrapper-menu">
                         <div class="bar1"></div>
@@ -35,7 +35,7 @@
                         <div class="bar3"></div>
                     </div>
                 </div>
-            </button>
+            </div>
         </div>
 
         <div class="collapse navbar-collapse d-md-flex justify-content-end" id="navbarNav">
@@ -56,16 +56,16 @@
             </ul>
         </div>
     </nav>
-    <section class="px-3">
-        <main>
+    <main>
+        <section class="px-3">
             <div class="container my-5">
                 <div class="row py-5">
                     <div class="col-md-6">
                         <div class="col-6 img7 img-fluid">
-                            <img alt="cykelkurv" src="img/cykelkurv.jpg" height="400;">
+                            <img alt="cykelkurv" src="img/cykelkurv.jpg" height="400">
                         </div>
                         <div class="col-6 img8">
-                            <img alt="plastik" src="img/plastik-2.jpg" height="400;">
+                            <img alt="plastik" src="img/plastik-2.jpg" height="400">
                         </div>
                     </div>
                     <div class="col-md-6">
@@ -93,7 +93,7 @@
                         <form>
                             <div class="form-group">
                                 <label for="exampleInputEmail1">Email addresse</label>
-                                <input type="email" class="form-control" style="width:400px;" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Indtast email">
+                                <input type="email" class="form-control" style="width:400px;" id="exampleInputEmail1" placeholder="Indtast email">
                                 <div class="col-12 d-flex justify-content-center">
                                     <button type="submit" class="my-4 ">Tilmeld</button>
                                 </div>
@@ -124,9 +124,11 @@
                 </div>
             </div>
 
-        </main>
 
-    </section>
+
+        </section>
+    </main>
+
     <footer class="pb-2" style="background-color: white;">
         <div class="container mt-5">
             <div class="row d-flex justify-content-center text-center">
@@ -158,7 +160,6 @@
                 </div>
             </div>
         </div>
-
     </footer>
 
 
@@ -167,4 +168,6 @@
     <script src="script.js"></script>
 
 
-</body></html>
+</body>
+
+</html>
